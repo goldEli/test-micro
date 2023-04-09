@@ -5,6 +5,10 @@ import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/root";
 
+import microApp from "@micro-zoe/micro-app";
+
+microApp.start();
+
 const router = createBrowserRouter([
   {
     path: "/",
